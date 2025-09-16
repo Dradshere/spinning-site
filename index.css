@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 146, 255, 0.3);
+    background-color:rgba(0, 146, 255, 0.3);
     font-family: tahoma;
 }
 .passbg {
@@ -42,5 +42,4 @@ a:link {
 a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
-
 }
