@@ -65,6 +65,7 @@ table.infotable, td.infocell {
     font-family: tahoma;
     font-size: 175%;
     font-weight: blold;
+    margin: 5px 5px 5px 5px;
 }
 .cancelgui {
     position: absolute;
