@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
 </head>
 <body>
 <div class="passbg">
     <form method="POST">
     <table class="logintable">
         <tbody>
-            <tr><td class="loginmail"><input placeholder="Email:" id="Email" class="loginemailinput" required></td></tr>
-            <tr><td class="loginpassword"><input class="loginpasswordinput" id="password" placeholder="Password:" type="password" required></td></tr>
+            <tr><td class="loginmail"><input placeholder="Username:" id="username" name="username" class="loginemailinput" required></td></tr>
+            <tr><td class="loginpassword"><input class="loginpasswordinput" id="password" name="password" placeholder="Password:" type="password" required></td></tr>
             {% if error %}
                 <tr><td><p style="color:red">{{ error }}</p>
             {% endif %}
